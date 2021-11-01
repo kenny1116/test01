@@ -15,11 +15,11 @@ public class class01
         a.length=4;
         a.width=5;
         a.height=6;
-        a.pi=3.141519;
+        a.pi=3.14159;
         a.radius=10;
         a.x=4*1.0/3;
         
-        System.out.println(Math.round((a.x)*(a.pi)*(a.radius)*(a.radius)*(a.radius)));
-        System.out.println((a.length)*(a.width)*2+(a.width)*(a.height)*2+ (a.length)*(a.height)*2);
+        System.out.println("球型體積:"+Math.round(((a.x)*(a.pi)*(a.radius)*(a.radius)*(a.radius))*10.0)/10.0);
+        System.out.print("立方體表面積:"+((a.length)*(a.width)*2+(a.width)*(a.height)*2+ (a.length)*(a.height)*2));
     }
 }

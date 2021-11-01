@@ -1,1 +1,25 @@
-
+class Cal_area {
+    int length;
+    int width;
+    int height;
+    double pi;
+    double radius;
+    double x;
+}
+public class class01
+{
+    public static void main(String arge[])
+    {
+        Cal_area a;
+        a = new Cal_area();
+        a.length=4;
+        a.width=5;
+        a.height=6;
+        a.pi=3.141519;
+        a.radius=10;
+        a.x=4*1.0/3;
+        
+        System.out.println(Math.round((a.x)*(a.pi)*(a.radius)*(a.radius)*(a.radius)));
+        System.out.println((a.length)*(a.width)*2+(a.width)*(a.height)*2+ (a.length)*(a.height)*2);
+    }
+}
